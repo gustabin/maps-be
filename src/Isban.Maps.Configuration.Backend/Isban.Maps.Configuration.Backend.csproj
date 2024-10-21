@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D369FFC8-ED07-47E7-9E7F-E570B5A45852}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Isban.Maps.Configuration.Backend</RootNamespace>
+    <AssemblyName>Isban.Maps.Configuration.Backend</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DESA|AnyCPU'">
+    <OutputPath>bin\DESA\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\TEST\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'HOMO|AnyCPU'">
+    <OutputPath>bin\HOMO\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD|AnyCPU'">
+    <OutputPath>bin\PROD\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Isban.Common, Version=2.1.0.0, Culture=neutral, PublicKeyToken=ee40c1ce623971fd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Common.2.1.0.1\lib\net461\Isban.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Common.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=ee40c1ce623971fd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.DataAccess.3.0.0.19143\lib\net461\Isban.Common.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Common.Data.IATX, Version=3.1.0.0, Culture=neutral, PublicKeyToken=ee40c1ce623971fd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Common.Data.IATX.3.1.0.1\lib\net461\Isban.Common.Data.IATX.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=5b668b7b881cb701, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.3.0.0.19143\lib\net461\Isban.Mercados.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados.DataAccess, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=99d0f0e49063d349, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.DataAccess.3.0.0.19143\lib\net461\Isban.Mercados.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados.UnityInject, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=f8284a49928108e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Isban.Mercados.UnityInject.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados.WebApiClient, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=e3399852017e92f6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.WebApiClient.3.0.0.19144\lib\net461\Isban.Mercados.WebApiClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.UnityInject.3.0.0.19143\lib\net461\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.4.121.2\lib\net461\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BussinessConfiguration.cs" />
+    <Compile Include="DataAccessConfiguration.cs" />
+    <Compile Include="Interception\BusinessInterceptor.cs" />
+    <Compile Include="Interception\DataAccessIatxInterceptor.cs" />
+    <Compile Include="Interception\DataAccessInterceptor.cs" />
+    <Compile Include="Interception\MapsException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Isban.Maps.Bussiness\Isban.Maps.Bussiness.csproj">
+      <Project>{ec7d2372-55f9-410f-8ca9-12fd3fadd3c4}</Project>
+      <Name>Isban.Maps.Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Isban.Maps.DataAccess\Isban.Maps.DataAccess.csproj">
+      <Project>{c59cca9d-a59c-4fbf-b2af-90e252d1d770}</Project>
+      <Name>Isban.Maps.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Isban.Maps.Entity\Isban.Maps.Entity.csproj">
+      <Project>{55973293-663D-4C89-8EDB-A7B6C88FD4DA}</Project>
+      <Name>Isban.Maps.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Isban.Maps.IBussiness\Isban.Maps.IBussiness.csproj">
+      <Project>{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}</Project>
+      <Name>Isban.Maps.IBussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Isban.Maps.IDataAccess\Isban.Maps.IDataAccess.csproj">
+      <Project>{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}</Project>
+      <Name>Isban.Maps.IDataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

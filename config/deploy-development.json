@@ -1,0 +1,21 @@
+{
+    "Applications" : [
+        {
+            "Name": "MAPS-BE-9200",
+            "Hostname" : "webbpsibehomo01",
+            "ApplicationPoolName": "MAPS-BE-9200",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-BE-9200"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/development/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-BE-9200"
+                }
+            ]
+        }
+    ]
+}

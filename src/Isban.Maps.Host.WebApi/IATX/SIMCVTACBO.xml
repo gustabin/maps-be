@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Servicio Stx_Id="SIMCVTACBO" Stx_Ver="100" Log="N" Buffering="S">
+  <Header>
+    <Canal Type="A" Length="2"></Canal>
+    <Canal_Id Type="A" Length="4"></Canal_Id>
+    <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+    <Canal_Ver Type="A" Length="3"></Canal_Ver>
+    <SubCanal_Tipo Type="A" Length="2"></SubCanal_Tipo>
+    <Subcanal Type="A" Length="4"></Subcanal>
+    <Usuario_Tipo Type="A" Length="2"></Usuario_Tipo>
+    <Usuario_Id Type="A" Length="8"></Usuario_Id>
+    <Usuario_Attr Type="A" Length="2"></Usuario_Attr>
+    <Usuario_Pwd Type="A" Length="8"></Usuario_Pwd>
+    <Idus_Conc Type="A" Length="8"></Idus_Conc>
+    <Num_Sec Type="A" Length="8"></Num_Sec>
+    <Nup Type="A" Length="8"></Nup>
+    <Tipo_Cliente Type="A" Length="1"></Tipo_Cliente>
+    <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+    <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+    <Tipo_Dni Type="A" Length="1"></Tipo_Dni>
+    <Nro_Dni Type="A" Length="11"></Nro_Dni>
+    <Fecha_Nac Type="A" Length="8"></Fecha_Nac>
+</Header>
+  <Input>
+    <TipoCtaOper Type="N" Length="2"></TipoCtaOper>
+    <SucursalCuenta Type="N" Length="3"></SucursalCuenta>
+    <NumeroCuenta Type="N" Length="7"></NumeroCuenta>
+    <TipoOperacion Type="N" Length="1"></TipoOperacion>
+    <TipoEspecie Type="A" Length="3"></TipoEspecie>
+    <CantidadTitulo Type="N" Length="14"></CantidadTitulo>
+    <CuentaTitulo Type="N" Length="8"></CuentaTitulo>
+    <EspecieCodigo Type="N" Length="5"></EspecieCodigo>
+    <ImporteDebitoCredito Type="N" Length="14"></ImporteDebitoCredito>
+    <CotizacionLimite Type="N" Length="14"></CotizacionLimite>
+  </Input>
+  <Output>
+    <ImporteDebitoCredito></ImporteDebitoCredito>
+    <Cantidad></Cantidad>
+    <Cotizacion></Cotizacion>
+  </Output>
+</Servicio>

@@ -1,0 +1,14 @@
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Maps.IDataAccess.dll.config
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Maps.IDataAccess.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Maps.IDataAccess.pdb
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Common.Data.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Maps.Entity.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Mercados.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Maps.Entity.pdb
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\bin\Debug\Isban.Maps.Entity.dll.config
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\obj\Debug\Isban.Maps.IDataAccess.csproj.AssemblyReference.cache
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\obj\Debug\Isban.Maps.IDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\obj\Debug\Isban.Ma.E77EA3BC.Up2Date
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\obj\Debug\Isban.Maps.IDataAccess.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IDataAccess\obj\Debug\Isban.Maps.IDataAccess.pdb

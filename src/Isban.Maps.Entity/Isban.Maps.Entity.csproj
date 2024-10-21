@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55973293-663D-4C89-8EDB-A7B6C88FD4DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Isban.Maps.Entity</RootNamespace>
+    <AssemblyName>Isban.Maps.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DESA|AnyCPU'">
+    <OutputPath>bin\DESA\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\TEST\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'HOMO|AnyCPU'">
+    <OutputPath>bin\HOMO\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD|AnyCPU'">
+    <OutputPath>bin\PROD\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Isban.Mercados, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=5b668b7b881cb701, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.3.0.0.19143\lib\net461\Isban.Mercados.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ItemBase.cs" />
+    <Compile Include="Base\MapsBase.cs" />
+    <Compile Include="Base\Validaciones.cs" />
+    <Compile Include="Controles\Compuestos\FondoCompuesto.cs" />
+    <Compile Include="Controles\Compuestos\Frecuencia.cs" />
+    <Compile Include="Request\AltaCuentaOpicsReq.cs" />
+    <Compile Include="Request\BaseIaxtRequest.cs" />
+    <Compile Include="Request\ConsultaDatosCuentaRequest.cs" />
+    <Compile Include="Request\ConsultaFondosAGDRequest.cs" />
+    <Compile Include="Request\ConsultaPerfilInversorRequest.cs" />
+    <Compile Include="Request\DetalleDeFondoReq.cs" />
+    <Compile Include="Request\InfoFondoReq.cs" />
+    <Compile Include="Request\UpdateOrderRequest.cs" />
+    <Compile Include="Request\LegalesFondosAgd.cs" />
+    <Compile Include="Request\ObtenerIdAdhesionReq.cs" />
+    <Compile Include="Request\OperacionesDisponiblesFondosReq.cs" />
+    <Compile Include="Request\RTFWorkflowOnDemandReq.cs" />
+    <Compile Include="Request\InsertOrderRequest.cs" />
+    <Compile Include="Request\SaldoConcertadoNoLiquidadoRequest.cs" />
+    <Compile Include="Request\LoadSaldosRequest.cs" />
+    <Compile Include="Request\ObtenerFormAdhesionesReq.cs" />
+    <Compile Include="Request\UsuarioRacf.cs" />
+    <Compile Include="Constantes\Enumeradores.cs" />
+    <Compile Include="Constantes\Estructuras.cs" />
+    <Compile Include="Controles\Compuestos\CuentaCompuesta.cs" />
+    <Compile Include="Controles\Compuestos\FechaCompuesta.cs" />
+    <Compile Include="Controles\Compuestos\ImporteCompuesto.cs" />
+    <Compile Include="Controles\Customizados\ConsultaAdhesiones.cs" />
+    <Compile Include="Controles\Customizados\EstadoAdhesion.cs" />
+    <Compile Include="Controles\Customizados\DescripcionDinamica.cs" />
+    <Compile Include="Controles\Customizados\ItemGrupoAgd.cs" />
+    <Compile Include="Controles\Customizados\ItemTooltip.cs" />
+    <Compile Include="Controles\Simples\ControlSimple.cs" />
+    <Compile Include="Controles\Simples\IAsignarDatos.cs" />
+    <Compile Include="Helpers\Cache.cs" />
+    <Compile Include="Helpers\Crypto.cs" />
+    <Compile Include="Interfaces\IFormulario.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IResponseEntity.cs" />
+    <Compile Include="Request\RegistrarPasoWizard.cs" />
+    <Compile Include="Request\Cabecera.cs" />
+    <Compile Include="Request\ConsultaLoadAtisRequest.cs" />
+    <Compile Include="Request\ConsultaParametrizacionReq.cs" />
+    <Compile Include="Request\PasoWizardReq.cs" />
+    <Compile Include="Request\GuardarConfirmacionJsonReq.cs" />
+    <Compile Include="Request\ObtenerPasoReq.cs" />
+    <Compile Include="Request\GetClientePDC.cs" />
+    <Compile Include="Request\RegistraOrdenRequest.cs" />
+    <Compile Include="Request\RequestCuentasAptas.cs" />
+    <Compile Include="Request\SimulaPdcRequest.cs" />
+    <Compile Include="Request\ValiadaRestriccionMEPRequest.cs" />
+    <Compile Include="Request\ValidarCNV907Request.cs" />
+    <Compile Include="Request\ValidaRestriccionCMEPRequest.cs" />
+    <Compile Include="Request\VincularCuentasActivasReq.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosCuentaCompuesta.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosDescripcionDinamica.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosEstadoAdhesion.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosFecha.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosFechaCompuesta.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosImporteCompuesto.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosInputNumber.cs" />
+    <Compile Include="Responsabilidad\AsignarDatosSimple.cs" />
+    <Compile Include="Response\ConsultaCuentasMEP.cs" />
+    <Compile Include="Response\ConsultaFondosAGDResponse.cs" />
+    <Compile Include="Response\ConsultaPerfilInversorResponse.cs" />
+    <Compile Include="Response\ConsultarDatosSimulacionConfirmacionResp.cs" />
+    <Compile Include="Response\ConsultaRestriccionAdhesion.cs" />
+    <Compile Include="Response\CuentaAdheridaRTF.cs" />
+    <Compile Include="Response\DetalleDeFondoResp.cs" />
+    <Compile Include="Response\ObtenerIdAdhesionResp.cs" />
+    <Compile Include="Response\OperacionesDisponiblesFondosResp.cs" />
+    <Compile Include="Response\SaldoConcertadoNoLiquidadoResponse.cs" />
+    <Compile Include="Response\LoadSaldosResponse.cs" />
+    <Compile Include="Response\ConsultaParametrizcionResp.cs" />
+    <Compile Include="Response\ConsultaOrigenResponse.cs" />
+    <Compile Include="Response\ConsultaLoadAtisResponse.cs" />
+    <Compile Include="Response\ObtenerFormAdhesionesResp.cs" />
+    <Compile Include="Response\ObtenerPasoResponse.cs" />
+    <Compile Include="Response\CuentaCliente.cs" />
+    <Compile Include="Response\ConsultaPdcResponse.cs" />
+    <Compile Include="Response\Cliente.cs" />
+    <Compile Include="Response\PasoWizardRes.cs" />
+    <Compile Include="Response\DatosCuentaIATXResponse.cs" />
+    <Compile Include="Response\SimulaPdcResponse.cs" />
+    <Compile Include="Response\ResponseMaps.cs" />
+    <Compile Include="Request\RequestMaps.cs" />
+    <Compile Include="Request\GetCuentas.cs" />
+    <Compile Include="Request\GetTitulares.cs" />
+    <Compile Include="Response\ClienteCuentaDDC.cs" />
+    <Compile Include="Response\ClienteDDC.cs" />
+    <Compile Include="Response\FormularioResponse.cs" />
+    <Compile Include="Helpers\EntityExtensions.cs" />
+    <Compile Include="Interfaces\IHashable.cs" />
+    <Compile Include="Interfaces\IError.cs" />
+    <Compile Include="ChequeoAcceso.cs" />
+    <Compile Include="Controles\Customizados\ItemCuentaOperativa.cs" />
+    <Compile Include="Controles\Customizados\ItemCuentaTitulos.cs" />
+    <Compile Include="Controles\Customizados\Fecha.cs" />
+    <Compile Include="Controles\Customizados\ItemFondo.cs" />
+    <Compile Include="Controles\Customizados\ItemMoneda.cs" />
+    <Compile Include="Controles\Customizados\ItemServicio.cs" />
+    <Compile Include="Controles\Independientes\ItemDisclaimer.cs" />
+    <Compile Include="Controles\Independientes\ItemLegal.cs" />
+    <Compile Include="Controles\Simples\InputNumber.cs" />
+    <Compile Include="Controles\Simples\InputText.cs" />
+    <Compile Include="Controles\Simples\Item.cs" />
+    <Compile Include="Interfaces\IMapsEntityResponseBase.cs" />
+    <Compile Include="Interfaces\IValor.cs" />
+    <Compile Include="Controles\Simples\Lista.cs" />
+    <Compile Include="Base\EntityBase.cs" />
+    <Compile Include="KnownParameters.cs" />
+    <Compile Include="Parametro.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\FormularioRequest.cs" />
+    <Compile Include="Response\TitularDDC.cs" />
+    <Compile Include="Response\ValiadaRestriccionMEPResponse.cs" />
+    <Compile Include="Response\ValidarCNV907Response.cs" />
+    <Compile Include="Response\ValorConsDeAdhesionesResp.cs" />
+    <Compile Include="Response\ValorCtrlResponse.cs" />
+    <Compile Include="SeleccionFrecuencia.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

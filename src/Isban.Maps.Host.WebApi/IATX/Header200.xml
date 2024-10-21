@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Header>
+  <Ver_Enc>200</Ver_Enc>
+  <Tipo_Sec>00</Tipo_Sec>
+  <Tipo_Comp>00</Tipo_Comp>
+  <CF_NumSec>000</CF_NumSec>
+  <CF_Accion>00</CF_Accion>
+  <Tipo_Msg>Q</Tipo_Msg>
+  <Canal_Tipo Type="C" Length="2">00</Canal_Tipo>
+  <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+  <Canal_Ver Type="C" Length="3"></Canal_Ver>
+  <SubCanal_Tipo Type="C" Length="2"></SubCanal_Tipo>
+  <Canal_Id Type="C" Length="4"></Canal_Id>
+  <Usuario_Tipo Type="C" Length="2"></Usuario_Tipo>
+  <Usuario_Id Type="C" Length="8"></Usuario_Id>
+  <Usuario_Attr Type="C" Length="2"></Usuario_Attr>
+  <Usuario_Pwd Type="C" Length="8"></Usuario_Pwd>
+  <Idus_Conc Type="C" Length="8">00000000</Idus_Conc>
+  <NumSec Type="C" Length="8">00000000</NumSec>
+  <Req_Fecha Type="D" Format="yyyyMMdd"></Req_Fecha>
+  <Req_Hora Type="H" Format="HHmmss"></Req_Hora>
+  <Nro_Op_Canal>00000000</Nro_Op_Canal>
+  <Stx_Ses>00000000</Stx_Ses>
+  <ID_Operacion>00000000</ID_Operacion>
+  <Stx_Id></Stx_Id>
+  <Stx_Ver></Stx_Ver>
+  <Tipo_Operacion>0</Tipo_Operacion>
+  <Tipo_Ejecucion>0</Tipo_Ejecucion>
+  <Tipo_Validacion>0</Tipo_Validacion>
+  <Tipo_Respuesta>0</Tipo_Respuesta>
+  <Fec_Hor_Ej_Difer><![CDATA[            ]]></Fec_Hor_Ej_Difer>
+  <Nup Type="X" Length="8"></Nup>
+  <Filler_NUP><![CDATA[    ]]></Filler_NUP>
+  <Auto_Requerida>0</Auto_Requerida>
+  <Ind_Sincro Type="C" Length="1">1</Ind_Sincro>
+  <ID_Sincro><![CDATA[        ]]></ID_Sincro>
+  <Ind_Reversa>0</Ind_Reversa>
+  <Ind_Sinonimo>0</Ind_Sinonimo>
+  <Ind_No_Util_V2000><![CDATA[ ]]></Ind_No_Util_V2000>
+  <Ind_Trace>1</Ind_Trace>
+  <Tipo_Cliente Type="C" Length="1"></Tipo_Cliente>
+  <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+  <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+  <Fecha_Nac Type="F" Format="yyyyMMdd"><![CDATA[        ]]></Fecha_Nac>
+  <PIN_Cliente><![CDATA[    ]]></PIN_Cliente>
+  <Ind_Aute>0</Ind_Aute>
+  <ID_Ses_Cliente><![CDATA[        ]]></ID_Ses_Cliente>
+  <Func_Autor>00</Func_Autor>
+  <ID_Autor>00000000</ID_Autor>
+  <Read_Lock_TimeStamp><![CDATA[                          ]]></Read_Lock_TimeStamp>
+  <Status_Autor><![CDATA[  ]]></Status_Autor>
+  <Ind_Autor>0</Ind_Autor>
+  <Cant_Autor>0</Cant_Autor>
+  <Autor_Tipo_Auto_1>0</Autor_Tipo_Auto_1>
+  <Autor_ID_Auto_1>000000000000</Autor_ID_Auto_1>
+  <Autor_Pin_Auto_1><![CDATA[    ]]></Autor_Pin_Auto_1>
+  <Autor_Status_Auto_1><![CDATA[  ]]></Autor_Status_Auto_1>
+  <Autor_Tipo_Auto_2>0</Autor_Tipo_Auto_2>
+  <Autor_ID_Auto_2>000000000000</Autor_ID_Auto_2>
+  <Autor_Pin_Auto_2><![CDATA[    ]]></Autor_Pin_Auto_2>
+  <Autor_Status_Auto_2><![CDATA[  ]]></Autor_Status_Auto_2>
+  <Autor_Tipo_Auto_3>0</Autor_Tipo_Auto_3>
+  <Autor_ID_Auto_3>000000000000</Autor_ID_Auto_3>
+  <Autor_Pin_Auto_3><![CDATA[    ]]></Autor_Pin_Auto_3>
+  <Autor_Status_Auto_3><![CDATA[  ]]></Autor_Status_Auto_3>
+  <Autor_Tipo_Auto_4>0</Autor_Tipo_Auto_4>
+  <Autor_ID_Auto_4>000000000000</Autor_ID_Auto_4>
+  <Autor_Pin_Auto_4><![CDATA[    ]]></Autor_Pin_Auto_4>
+  <Autor_Status_Auto_4><![CDATA[  ]]></Autor_Status_Auto_4>
+  <Autor_Tipo_Auto_5>0</Autor_Tipo_Auto_5>
+  <Autor_ID_Auto_5>000000000000</Autor_ID_Auto_5>
+  <Autor_Pin_Auto_5><![CDATA[    ]]></Autor_Pin_Auto_5>
+  <Autor_Status_Auto_5><![CDATA[  ]]></Autor_Status_Auto_5>
+  <Formato>DH</Formato>
+</Header>

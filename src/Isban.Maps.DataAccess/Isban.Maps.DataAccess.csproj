@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Isban.Maps.DataAccess</RootNamespace>
+    <AssemblyName>Isban.Maps.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DESA|AnyCPU'">
+    <OutputPath>bin\DESA\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\TEST\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'HOMO|AnyCPU'">
+    <OutputPath>bin\HOMO\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD|AnyCPU'">
+    <OutputPath>bin\PROD\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Isban.Common.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=ee40c1ce623971fd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.DataAccess.3.0.0.19143\lib\net461\Isban.Common.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Common.Data.Providers.IATX, Version=3.1.0.0, Culture=neutral, PublicKeyToken=ee40c1ce623971fd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Common.Data.Providers.IATX.3.1.0.1\lib\net461\Isban.Common.Data.Providers.IATX.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=5b668b7b881cb701, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.3.0.0.19143\lib\net461\Isban.Mercados.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados.DataAccess, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=99d0f0e49063d349, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.DataAccess.3.0.0.19143\lib\net461\Isban.Mercados.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Isban.Mercados.DataAccess.OracleClient, Version=3.0.0.19143, Culture=neutral, PublicKeyToken=3c2bbd51cd932b50, processorArchitecture=MSIL">
+      <HintPath>..\packages\Isban.Mercados.DataAccess.OracleClient.3.0.0.19143\lib\net461\Isban.Mercados.DataAccess.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.4.121.2\lib\net461\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseSmcRequest.cs" />
+    <Compile Include="Base\BcainvRequestBase.cs" />
+    <Compile Include="Base\ComponenteBaseDbReq.cs" />
+    <Compile Include="Base\FormularioBaseReq.cs" />
+    <Compile Include="Base\BaseReq.cs" />
+    <Compile Include="Constante.cs" />
+    <Compile Include="DatosClienteDA.cs" />
+    <Compile Include="DBRequest\AltaCuentaOpicsDBReq.cs" />
+    <Compile Include="DBRequest\ConsultaArchivoRTFDbReq.cs" />
+    <Compile Include="DBRequest\ConsultaCuentasMEPDbReq.cs" />
+    <Compile Include="DBRequest\ConsultaFondosAGDDbReq.cs" />
+    <Compile Include="DBRequest\ConsultarDatosConfirmacionDbReq.cs" />
+    <Compile Include="DBRequest\ConsultarDatosSimulacionDbReq.cs" />
+    <Compile Include="DBRequest\ConsultaRestriccionAdhesionDBReq.cs" />
+    <Compile Include="DBRequest\ConsultarPasoSiguienteBaja.cs" />
+    <Compile Include="DBRequest\ConsultaUltimoPeriodoRTFReq.cs" />
+    <Compile Include="DBRequest\DetalleDeFondoDbReq.cs" />
+    <Compile Include="DBRequest\InfoFondoDbReq.cs" />
+    <Compile Include="DBRequest\UpdateOrderDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerConsultaClienteDDCReq.cs" />
+    <Compile Include="DBRequest\ObtenerFormularioIdOrigenFlujo.cs" />
+    <Compile Include="DBRequest\ObtenerFormularioIdOrigenFlujoBaja.cs" />
+    <Compile Include="DBRequest\ObtenerIdAdhesionDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerLegalesFondosAgdDbReq.cs" />
+    <Compile Include="DBRequest\OperacionesDisponiblesFondosDbReq.cs" />
+    <Compile Include="DBRequest\RegistrarPasoWizardDbReq.cs" />
+    <Compile Include="DBRequest\ChequeoAccesoReq.cs" />
+    <Compile Include="DBRequest\CompFechaCompuestaDbReq.cs" />
+    <Compile Include="DBRequest\CompMontoSuscripcionDbReq.cs" />
+    <Compile Include="DBRequest\CompFechaDbReq.cs" />
+    <Compile Include="DBRequest\InsertOrderDbReq.cs" />
+    <Compile Include="DBRequest\SaldoConcertadoNoLiquidadoDbReq.cs" />
+    <Compile Include="DBRequest\LoadSaldosDbReq.cs" />
+    <Compile Include="DBRequest\ConsultaParametrizacionDbReq.cs" />
+    <Compile Include="DBRequest\GuardarConfirmacionJsonDbReq.cs" />
+    <Compile Include="DBRequest\LogFormularioDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerFormAdhesionesDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerIdComponenteDbReq.cs" />
+    <Compile Include="DBRequest\ConsultaOrigenDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerOrigenDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerPasoDbReq.cs" />
+    <Compile Include="DBRequest\ConsultaPasoAnteriorAdhDbReq.cs" />
+    <Compile Include="DBRequest\ConsultarPasoSiguienteAdhDbReq.cs" />
+    <Compile Include="DBRequest\ServConsAdhesionActualizarJsonReq.cs" />
+    <Compile Include="DBRequest\RegistraOrdenDbReq.cs" />
+    <Compile Include="DBRequest\TotalDePasosDbReq.cs" />
+    <Compile Include="DBRequest\ValidarCuentaDbReq.cs" />
+    <Compile Include="DBRequest\ObtenerSiguienteFormularioDbReq.cs" />
+    <Compile Include="DBRequest\ServBajaAdhesionSimulacionDbReq.cs" />
+    <Compile Include="DBRequest\ServBajaAdhesionDbReq.cs" />
+    <Compile Include="DBRequest\ServConsAdhesionConfimacionReq.cs" />
+    <Compile Include="DBRequest\ServConsAdhesionesDbReq.cs" />
+    <Compile Include="DBRequest\ServConsAdhesionSimulacionReq.cs" />
+    <Compile Include="DBRequest\ValorCompComprobanteDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompConsAdhesion.cs" />
+    <Compile Include="DBRequest\ValorCompCtasVinculadas.cs" />
+    <Compile Include="DBRequest\ValorCompDisclaimerDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompEstadoAdhesionDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompDescripcionDinamicaDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompFechaDesdeDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompFechaHastaDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompFechaFrecuencia.cs" />
+    <Compile Include="DBRequest\ValorCompListaFrecuencia.cs" />
+    <Compile Include="DBRequest\ValorCompNumeros.cs" />
+    <Compile Include="DBRequest\ValorCompListaDias.cs" />
+    <Compile Include="DBRequest\ValorCompFrecuencia.cs" />
+    <Compile Include="DBRequest\ValorCompListadoFondo.cs" />
+    <Compile Include="DBRequest\ValorCompPeriodosDbReq.cs" />
+    <Compile Include="DBRequest\ValorCompProductoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlControlDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlFondoCompuestoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlFormularioCargaCompletaPorServicioDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlListadoGenericoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlSaldoMinimoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlEmailDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlFormularioDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlFondoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlLegalDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlMonedaDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlMontoMaximoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlMontoMinimoDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlMontoSuscripcionDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlCuentaTitulosDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlCuentaOperativaDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlOperacionDbReq.cs" />
+    <Compile Include="DBRequest\ValorCtrlServicioDbReq.cs" />
+    <Compile Include="DBRequest\VincularCuentasActivasDDCReq.cs" />
+    <Compile Include="DBResponse\ChequeoAccesoResp.cs" />
+    <Compile Include="DBResponse\ConsultaArchivoRTFDbResp.cs" />
+    <Compile Include="DBResponse\ConsultaClienteDDCResp.cs" />
+    <Compile Include="DBResponse\ConsultaCuentasMEPDbResp.cs" />
+    <Compile Include="DBResponse\ConsultaFondosAGDDbResp.cs" />
+    <Compile Include="DBResponse\ConsultarDatosConfirmacionDbResp.cs" />
+    <Compile Include="DBResponse\ConsultarDatosSimulacionDbResp.cs" />
+    <Compile Include="DBResponse\DetalleDeFondoDbResp.cs" />
+    <Compile Include="DBResponse\ObtenerIdAdhesionDbResp.cs" />
+    <Compile Include="DBResponse\OperacionesDisponiblesFondosDbResp.cs" />
+    <Compile Include="DBResponse\RegistrarPasoWizardDbResp.cs" />
+    <Compile Include="DBResponse\SaldoConcertadoNoLiquidadoDbResp.cs" />
+    <Compile Include="DBResponse\LoadSaldosDbResp.cs" />
+    <Compile Include="DBResponse\ConsultaLoadAtisDbResp.cs" />
+    <Compile Include="DBResponse\DatosCuentaDbResp.cs" />
+    <Compile Include="DBResponse\ConsultaOrigenDbResp.cs" />
+    <Compile Include="DBResponse\ConsultaParametrizacionDbResp.cs" />
+    <Compile Include="DBResponse\ConsultaPasoAntSigDbResp.cs" />
+    <Compile Include="DBResponse\ObtenerFormAdhesionesDbResp.cs" />
+    <Compile Include="DBResponse\ObtenerPasoDbResp.cs" />
+    <Compile Include="DBResponse\ValorConsDeAdhesionesDbResp.cs" />
+    <Compile Include="DBRequest\ConsultaLoadAtisDbReq.cs" />
+    <Compile Include="DBResponse\ValoresFormularioDbResp.cs" />
+    <Compile Include="Extension.cs" />
+    <Compile Include="CanalesIatxDataAccess.cs" />
+    <Compile Include="SmcDataAccess.cs" />
+    <Compile Include="OpicsDataAccess.cs" />
+    <Compile Include="MapsServiciosDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Isban.Maps.Entity\Isban.Maps.Entity.csproj">
+      <Project>{55973293-663d-4c89-8edb-a7b6c88fd4da}</Project>
+      <Name>Isban.Maps.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Isban.Maps.IDataAccess\Isban.Maps.IDataAccess.csproj">
+      <Project>{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}</Project>
+      <Name>Isban.Maps.IDataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

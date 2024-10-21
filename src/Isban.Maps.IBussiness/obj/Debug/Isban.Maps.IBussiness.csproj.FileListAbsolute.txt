@@ -1,0 +1,13 @@
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Maps.IBussiness.dll.config
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Maps.IBussiness.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Maps.IBussiness.pdb
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Maps.Entity.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Mercados.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Newtonsoft.Json.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Maps.Entity.pdb
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\bin\Debug\Isban.Maps.Entity.dll.config
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\obj\Debug\Isban.Maps.IBussiness.csproj.AssemblyReference.cache
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\obj\Debug\Isban.Maps.IBussiness.csproj.CoreCompileInputs.cache
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\obj\Debug\Isban.Ma.EAF3CFF6.Up2Date
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\obj\Debug\Isban.Maps.IBussiness.dll
+C:\Users\b071675\repo OBP\maps-be\src\Isban.Maps.IBussiness\obj\Debug\Isban.Maps.IBussiness.pdb

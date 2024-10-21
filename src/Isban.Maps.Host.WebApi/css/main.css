@@ -1,0 +1,129 @@
+﻿
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin:0px;
+    padding:0px;
+}
+form#form1 ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+form#form1 ul li span {
+    min-width: 110px;
+    display: inline-block;
+}
+.container-button {
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.btn-submit {
+    background: #5d5dff;
+    color: #fff;
+    border: 0px;
+    padding: 9px;
+    cursor: pointer;
+    text-decoration:none;
+    height:auto;
+    min-width:120px;
+}
+form#form1 input {
+    height: 22px;
+    padding: 3px;
+    border: 1px solid #ccc4c4;
+}
+
+.container-button input[type=submit]{
+    background: #f71b1b;
+    color: #fff;
+    border: 0px !important;
+    padding: 9px !important;
+    cursor: pointer;
+    text-decoration:none;
+    height:auto !important;
+}
+.btn-submit:hover{
+    background:#0000ff;
+}
+.container {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.container-menu ul li {
+    display: inline-block;
+}
+
+ul.menu-principal {
+    margin-top: 0px;
+    background: #f71b1b;
+}
+
+ul.menu-principal li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding:10px;
+}
+ul.menu-principal li a:hover {
+    background: #e21414;
+}
+.titles {
+    margin-left: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.grid-table{
+    width: 100%;
+    max-width: 1345px;
+    margin: 0 auto;
+}
+
+.tabled tbody tr th{
+    height: 30px;
+    background: #f1f1f1;
+}
+.tabled tbody tr td {
+    padding: 5px;
+}
+.titles-table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 14px;
+}
+.tabled-second{
+    max-width: 1273px;
+    width: 100%;
+    margin: 0 auto;
+}
+table.tabled-second tbody tr th {
+    border: 1px solid;
+    padding: 8px;
+    background: #efefef;
+}
+
+table.tabled-second tbody tr td {
+    border: 1px solid;
+}
+tr.columnalter {
+    background: #fbcaca;
+    color: #000;
+}
+
+.divTable {
+    width: 100%;
+    max-width: 1345px;
+    margin: 0 auto;
+    float: left;
+}
+.divTable .row50{
+    float: left;
+    width: 49%;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.divTable .row50 span{
+    width: 49%!important;
+}

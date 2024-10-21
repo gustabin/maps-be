@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Servicio Stx_Id="SUSFCI____" Stx_Ver="150" Log="N" Buffering="S">
+  <Header>
+    <Canal Type="A" Length="2"></Canal>
+    <Canal_Id Type="A" Length="4"></Canal_Id>
+    <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+    <Canal_Ver Type="A" Length="3"></Canal_Ver>
+    <SubCanal_Tipo Type="A" Length="2"></SubCanal_Tipo>
+    <Subcanal Type="A" Length="4"></Subcanal>
+    <Usuario_Tipo Type="A" Length="2"></Usuario_Tipo>
+    <Usuario_Id Type="A" Length="8"></Usuario_Id>
+    <Usuario_Attr Type="A" Length="2"></Usuario_Attr>
+    <Usuario_Pwd Type="A" Length="8"></Usuario_Pwd>
+    <Idus_Conc Type="A" Length="8"></Idus_Conc>
+    <Num_Sec Type="A" Length="8"></Num_Sec>
+    <Nup Type="A" Length="8"></Nup>
+    <Tipo_Cliente Type="A" Length="1"></Tipo_Cliente>
+    <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+    <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+    <Tipo_Dni Type="A" Length="1"></Tipo_Dni>
+    <Nro_Dni Type="A" Length="11"></Nro_Dni>
+    <Fecha_Nac Type="A" Length="8"></Fecha_Nac>
+  </Header>
+  <Input>
+    <Terminal_safe Type="A" Length="4"></Terminal_safe>
+	  <Codigo_Fondo Type="N" Length="3"></Codigo_Fondo>
+	  <Codigo_Cliente Type="N" Length="11"></Codigo_Cliente>
+	  <Codigo_Agente Type="N" Length="3"></Codigo_Agente>
+	  <Codigo_Canal Type="N" Length="3"></Codigo_Canal>
+	  <Importe_Bruto Type="N" Length="14"></Importe_Bruto>
+	  <Porcentaje_Comis Type="N" Length="4"></Porcentaje_Comis>
+	  <Forma_Pago Type="N" Length="2"></Forma_Pago>
+	  <Nombre_Banco Type="A" Length="10"></Nombre_Banco>
+	  <Numero_Cheque Type="A" Length="10"></Numero_Cheque>
+	  <Tipo_Cuenta Type="N" Length="2"></Tipo_Cuenta>
+	  <Suc_Cuenta Type="N" Length="3"></Suc_Cuenta>
+	  <Nro_Cuenta Type="N" Length="7"></Nro_Cuenta>
+	  <Impre_solicitud Type="A" Length="1"></Impre_solicitud>
+	  <Cotizac_Cambio Type="N" Length="14"></Cotizac_Cambio>
+	  <Fecha_Rescate_futuro Type="A" Length="10"></Fecha_Rescate_futuro>
+	  <Codigo_Custodia_Actual Type="N" Length="1"></Codigo_Custodia_Actual>
+	  <Dia_Clearing_Cheques Type="N" Length="1"></Dia_Clearing_Cheques>
+	  <Moneda Type="N" Length="1"></Moneda>
+	  <Nro-Certific-a-Reversar Type="N" Length="10"></Nro-Certific-a-Reversar>
+	  <Monto-a-Reversar-KU Type="N" Length="14"></Monto-a-Reversar-KU>
+  </Input>
+  <Output>
+    <Status_Resultado_Extendido></Status_Resultado_Extendido>
+    <Descripcion_Moneda></Descripcion_Moneda>
+	  <Numero_Certificado></Numero_Certificado>
+    <Importe_Neto></Importe_Neto>
+    <Porcentaje_Comis></Porcentaje_Comis>
+    <Valor_Comision></Valor_Comision>
+    <Estado_Actual></Estado_Actual>
+    <Motivo_Actual></Motivo_Actual>
+    <Cotizac_Cambio></Cotizac_Cambio>
+    <Dias_Carencia></Dias_Carencia>
+    <Nombre_fondo></Nombre_fondo>
+    <Importe_moneda_fondo></Importe_moneda_fondo>
+  </Output>
+</Servicio>

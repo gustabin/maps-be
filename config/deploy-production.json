@@ -1,0 +1,208 @@
+{
+    "Applications" : [
+        {
+            "Name": "MAPS-3000",
+            "Hostname" : "webbpsibesrv09",
+            "ApplicationPoolName": "MAPS-3000",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3000/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3001",
+            "Hostname" : "webbpsibesrv09",
+            "ApplicationPoolName": "MAPS-3001",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3001/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3002",
+            "Hostname" : "webbpsibesrv09",
+            "ApplicationPoolName": "MAPS-3002",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3002/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3000",
+            "Hostname" : "webbpsibesrv10",
+            "ApplicationPoolName": "MAPS-3000",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3000/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3001",
+            "Hostname" : "webbpsibesrv10",
+            "ApplicationPoolName": "MAPS-3001",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3001/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3002",
+            "Hostname" : "webbpsibesrv10",
+            "ApplicationPoolName": "MAPS-3002",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3002/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3000",
+            "Hostname" : "webbpsibesrv11",
+            "ApplicationPoolName": "MAPS-3000",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3000/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3001",
+            "Hostname" : "webbpsibesrv11",
+            "ApplicationPoolName": "MAPS-3001",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3001/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3002",
+            "Hostname" : "webbpsibesrv11",
+            "ApplicationPoolName": "MAPS-3002",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3002/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3000",
+            "Hostname" : "webbpsibesrv12",
+            "ApplicationPoolName": "MAPS-3000",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3000/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3001",
+            "Hostname" : "webbpsibesrv12",
+            "ApplicationPoolName": "MAPS-3001",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3001/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3001"
+                }
+            ]
+        },
+        {
+            "Name": "MAPS-3002",
+            "Hostname" : "webbpsibesrv12",
+            "ApplicationPoolName": "MAPS-3002",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/production/MAPS-3002/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3002"
+                }
+            ]
+        }
+    ]
+}

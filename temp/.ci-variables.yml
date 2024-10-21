@@ -1,0 +1,48 @@
+#### USO DE .CI-VARIABLES Y TEMPLATES ####
+
+# Para que el uso de los templates funcione correctamente, es requerido que las variables definidas en este archivo cotnengan un valor. 
+# No se podrán modificar el nombre de las variables.
+# Solo se puede modificar el valor de la derecha, en caso de no modificar se tomara el valor que esta por defecto en este archivo.
+ 
+variables:
+
+#### Variables: .NET ####
+
+#### Build variables ####
+  #BUILD_PATH: './Deploy'
+  BUILD_PATH: 'Deploy'
+  PATH_CONFIG_ARTIFACT: './config'
+  APP_WEB_NET: "true"               
+  SERVICE_WINDOWS_NET: "false"      
+  FILE_WINDOWS_NET: "false"   
+
+ 
+# MODIFICAR EL PATH DE EJEMPLO al ruta correspondiente para el deploy como los releases
+
+  HAVE_TEST: 'false'
+  #TEST_LIB: 'src\ApiExample.Tests\bin\Debug\ApiExample.Tests.dll'
+  SLN_NAME: 'src\Maps.sln'
+  #APPPOOL_NAME: 'prueba'
+  VISUAL_IDE: '2022'
+  IIS_SHUTDOWN_TIMEOUT: '5'
+  
+#### QUALITY SONAR ####
+  SONAR_EXCLUSIONS_FILES: ''
+
+#### Servers list variables ####
+# Reemplazar en cada caso con los tags de los runners correspondiente a cada ambiente
+  SERVERS_DEV: 'webbpsibehomo01'
+  SERVERS_STG: 'webbpsibebeta02'
+  SERVERS_PROD: 'webbpsibesrv09;webbpsibesrv10;webbpsibesrv11;webbpsibesrv12'
+
+
+#### FLYWAY ####
+# USE_FLYWAY: Colocar TRUE si se desa utulizar el deploy de Flyway y FALSE si no lo desea. 
+  USE_FLYWAY: "false"
+# CONF_PATH. Carpeta obligatoria para ejecutar los archivos de configuración. 
+  CONF_PATH: "db/conf"
+# SQL_PATH: Carpeta obligatoria para ejecutar los scripts sql. Habrá una por ambiente para que 
+# puedan separa aquellos scripts según correspondan.
+  SQL_PATH: "db/sql"
+
+

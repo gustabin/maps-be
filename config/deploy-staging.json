@@ -1,0 +1,21 @@
+{
+    "Applications" : [
+        {
+            "Name": "MAPS-3000",
+            "Hostname" : "webbpsibebeta02",
+            "ApplicationPoolName": "MAPS-3000",
+            "Paths": [
+                {
+                    "Label": "Binaries",
+                    "Source": "$BUILD_PATH/*",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                },
+                {
+                    "Label": "Config files",
+                    "Source": "$PATH_CONFIG_ARTIFACT/staging/Web.config",
+                    "Target": "D:\\aplic\\Frontend\\MAPS-3000"
+                }
+            ]
+        }
+    ]
+}

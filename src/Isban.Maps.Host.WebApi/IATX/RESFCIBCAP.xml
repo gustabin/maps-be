@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Servicio Stx_Id="RESFCIBCAP" Stx_Ver="110" Log="N" Buffering="S">
+  <Header>
+    <Canal Type="A" Length="2"></Canal>
+    <Canal_Id Type="A" Length="4"></Canal_Id>
+    <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+    <Canal_Ver Type="A" Length="3"></Canal_Ver>
+    <SubCanal_Tipo Type="A" Length="2"></SubCanal_Tipo>
+    <Subcanal Type="A" Length="4"></Subcanal>
+    <Usuario_Tipo Type="A" Length="2"></Usuario_Tipo>
+    <Usuario_Id Type="A" Length="8"></Usuario_Id>
+    <Usuario_Attr Type="A" Length="2"></Usuario_Attr>
+    <Usuario_Pwd Type="A" Length="8"></Usuario_Pwd>
+    <Idus_Conc Type="A" Length="8"></Idus_Conc>
+    <Num_Sec Type="A" Length="8"></Num_Sec>
+    <Nup Type="A" Length="8"></Nup>
+    <Tipo_Cliente Type="A" Length="1"></Tipo_Cliente>
+    <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+    <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+    <Tipo_Dni Type="A" Length="1"></Tipo_Dni>
+    <Nro_Dni Type="A" Length="11"></Nro_Dni>
+    <Fecha_Nac Type="A" Length="8"></Fecha_Nac>
+  </Header>
+  <Input>
+    <tipo_transaccion Type="N" Length="2"></tipo_transaccion>
+    <Codigo_Fondo Type="N" Length="3"></Codigo_Fondo>
+    <Codigo_cliente Type="N" Length="11"></Codigo_cliente>
+    <Codigo_agente Type="N" Length="3"></Codigo_agente>
+    <Codigo_canal Type="N" Length="3"></Codigo_canal>
+    <Nro_Certificado Type="N" Length="10"></Nro_Certificado>
+    <Importe_Neto Type="N" Length="14"></Importe_Neto>
+    <Cantidad_cuotas_partes Type="N" Length="14"></Cantidad_cuotas_partes>
+    <Porcentaje_comision Type="N" Length="4"></Porcentaje_comision>
+    <Forma_Pago Type="N" Length="2"></Forma_Pago>
+    <Impre_Solicitud Type="A" Length="1"></Impre_Solicitud>
+    <Codigo_Custodia Type="N" Length="1"></Codigo_Custodia>
+    <Numero_Certificado_a_Reversar Type="N" Length="10"></Numero_Certificado_a_Reversar>
+
+  </Input>
+  <Output>
+    <Status_Resultado_Extendido></Status_Resultado_Extendido>
+    <Descripción_Moneda></Descripción_Moneda>
+    <Estado_Actual></Estado_Actual>
+    <Motivo_Actual></Motivo_Actual>
+    <Nombre_fondo></Nombre_fondo>
+    <Importe_rescate></Importe_rescate>
+    <Total_cuotas_Partes></Total_cuotas_Partes>
+    <Monto_Cambio></Monto_Cambio>
+    <Cotacao_pact></Cotacao_pact>
+    <Numero_de_Certificado></Numero_de_Certificado>
+
+  </Output>
+</Servicio>

@@ -1,0 +1,214 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Isban.Maps.Host", "01 - Isban.Maps.Host", "{ECD3B30B-D45F-49AE-8768-1A8B8418738B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Isban.Maps.Bussiness", "02 - Isban.Maps.Bussiness", "{E9FD1429-A1EB-42AD-BF1F-048EE2AEF3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.Bussiness", "Isban.Maps.Bussiness\Isban.Maps.Bussiness.csproj", "{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.IBussiness", "Isban.Maps.IBussiness\Isban.Maps.IBussiness.csproj", "{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Isban.Maps.Configuration.Backend", "05 - Isban.Maps.Configuration.Backend", "{7407420E-5F5D-4C15-A7BB-A67CF6923DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.Configuration.Backend", "Isban.Maps.Configuration.Backend\Isban.Maps.Configuration.Backend.csproj", "{D369FFC8-ED07-47E7-9E7F-E570B5A45852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Isban.Maps.DataAccess", "03 - Isban.Maps.DataAccess", "{99691C5B-2E1D-4B95-8AD3-12EACC54E421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.DataAccess", "Isban.Maps.DataAccess\Isban.Maps.DataAccess.csproj", "{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.IDataAccess", "Isban.Maps.IDataAccess\Isban.Maps.IDataAccess.csproj", "{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.Entity", "Isban.Maps.Entity\Isban.Maps.Entity.csproj", "{55973293-663D-4C89-8EDB-A7B6C88FD4DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Isban.Maps.Common", "04 - Isban.Maps.Common", "{B62DA3D9-6D70-4EC7-9589-1F3643B2E256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.Host.Controller", "Isban.Maps.Host.Controller\Isban.Maps.Host.Controller.csproj", "{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.Host.Webapi", "Isban.Maps.Host.Webapi\Isban.Maps.Host.Webapi.csproj", "{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Tests", "06 - Tests", "{836A36AF-3824-47BB-BA76-9E32B2C44C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isban.Maps.Business.Tests", "Isban.Maps.Business.Tests\Isban.Maps.Business.Tests.csproj", "{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Desa|Any CPU = Desa|Any CPU
+		HOMO|Any CPU = HOMO|Any CPU
+		PROD|Any CPU = PROD|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TEST|Any CPU = TEST|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.Desa|Any CPU.ActiveCfg = DESA|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.Desa|Any CPU.Build.0 = DESA|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.Desa|Any CPU.ActiveCfg = Desa|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.Desa|Any CPU.Build.0 = Desa|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.HOMO|Any CPU.ActiveCfg = HOMO|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.HOMO|Any CPU.Build.0 = HOMO|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.Desa|Any CPU.ActiveCfg = Debug|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.Desa|Any CPU.Build.0 = Debug|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.HOMO|Any CPU.ActiveCfg = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.HOMO|Any CPU.Build.0 = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.PROD|Any CPU.ActiveCfg = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.PROD|Any CPU.Build.0 = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.TEST|Any CPU.ActiveCfg = Release|Any CPU
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0}.TEST|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC7D2372-55F9-410F-8CA9-12FD3FADD3C4} = {E9FD1429-A1EB-42AD-BF1F-048EE2AEF3C9}
+		{2724DEE3-FD59-4F4A-A50B-FD0EAE124DD1} = {E9FD1429-A1EB-42AD-BF1F-048EE2AEF3C9}
+		{D369FFC8-ED07-47E7-9E7F-E570B5A45852} = {7407420E-5F5D-4C15-A7BB-A67CF6923DC4}
+		{C59CCA9D-A59C-4FBF-B2AF-90E252D1D770} = {99691C5B-2E1D-4B95-8AD3-12EACC54E421}
+		{A5A6238B-E82E-47E6-B601-0C28B1B5AD15} = {99691C5B-2E1D-4B95-8AD3-12EACC54E421}
+		{55973293-663D-4C89-8EDB-A7B6C88FD4DA} = {B62DA3D9-6D70-4EC7-9589-1F3643B2E256}
+		{B5A1DB2A-EEB2-4E22-97A3-4E8524FA1A3C} = {ECD3B30B-D45F-49AE-8768-1A8B8418738B}
+		{2817EE4F-4D5A-4A72-98A5-D2FF3ED06DF5} = {ECD3B30B-D45F-49AE-8768-1A8B8418738B}
+		{6498B5F7-5838-4F76-9590-E8E9CB62D8B0} = {836A36AF-3824-47BB-BA76-9E32B2C44C4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC562E51-86E0-4951-B449-C444C26977CF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsserver:8080/tfs/024-banca%20mayorista
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Isban.Maps.Bussiness\\Isban.Maps.Bussiness.csproj
+		SccProjectTopLevelParentUniqueName1 = Maps.sln
+		SccProjectName1 = Isban.Maps.Bussiness
+		SccLocalPath1 = Isban.Maps.Bussiness
+		SccProjectUniqueName2 = Isban.Maps.IBussiness\\Isban.Maps.IBussiness.csproj
+		SccProjectTopLevelParentUniqueName2 = Maps.sln
+		SccProjectName2 = Isban.Maps.IBussiness
+		SccLocalPath2 = Isban.Maps.IBussiness
+		SccProjectUniqueName3 = Isban.Maps.Configuration.Backend\\Isban.Maps.Configuration.Backend.csproj
+		SccProjectTopLevelParentUniqueName3 = Maps.sln
+		SccProjectName3 = Isban.Maps.Configuration.Backend
+		SccLocalPath3 = Isban.Maps.Configuration.Backend
+		SccProjectUniqueName4 = Isban.Maps.DataAccess\\Isban.Maps.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName4 = Maps.sln
+		SccProjectName4 = Isban.Maps.DataAccess
+		SccLocalPath4 = Isban.Maps.DataAccess
+		SccProjectUniqueName5 = Isban.Maps.IDataAccess\\Isban.Maps.IDataAccess.csproj
+		SccProjectTopLevelParentUniqueName5 = Maps.sln
+		SccProjectName5 = Isban.Maps.IDataAccess
+		SccLocalPath5 = Isban.Maps.IDataAccess
+		SccProjectUniqueName6 = Isban.Maps.Entity\\Isban.Maps.Entity.csproj
+		SccProjectTopLevelParentUniqueName6 = Maps.sln
+		SccProjectName6 = Isban.Maps.Entity
+		SccLocalPath6 = Isban.Maps.Entity
+		SccProjectUniqueName7 = Isban.Maps.Host.Controller\\Isban.Maps.Host.Controller.csproj
+		SccProjectTopLevelParentUniqueName7 = Maps.sln
+		SccProjectName7 = Isban.Maps.Host.Controller
+		SccLocalPath7 = Isban.Maps.Host.Controller
+		SccProjectUniqueName8 = Isban.Maps.Host.Webapi\\Isban.Maps.Host.Webapi.csproj
+		SccProjectTopLevelParentUniqueName8 = Maps.sln
+		SccProjectName8 = Isban.Maps.Host.Webapi
+		SccLocalPath8 = Isban.Maps.Host.Webapi
+		SccProjectUniqueName9 = Isban.Maps.Business.Tests\\Isban.Maps.Business.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = Maps.sln
+		SccProjectName9 = Isban.Maps.Business.Tests
+		SccLocalPath9 = Isban.Maps.Business.Tests
+	EndGlobalSection
+EndGlobal

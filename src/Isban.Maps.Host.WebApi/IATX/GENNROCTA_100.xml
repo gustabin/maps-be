@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Servicio Stx_Id="GENNROCTA_" Stx_Ver="100" Log="N" Buffering="S">
+  <Header>
+    <Canal Type="A" Length="2"></Canal>
+    <Canal_Id Type="A" Length="4"></Canal_Id>
+    <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+    <Canal_Ver Type="A" Length="3"></Canal_Ver>
+    <SubCanal_Tipo Type="A" Length="2"></SubCanal_Tipo>
+    <Subcanal Type="A" Length="4"></Subcanal>
+    <Usuario_Tipo Type="A" Length="2"></Usuario_Tipo>
+    <Usuario_Id Type="A" Length="8"></Usuario_Id>
+    <Usuario_Attr Type="A" Length="2"></Usuario_Attr>
+    <Usuario_Pwd Type="A" Length="8"></Usuario_Pwd>
+    <Idus_Conc Type="A" Length="8"></Idus_Conc>
+    <Num_Sec Type="A" Length="8"></Num_Sec>
+    <Nup Type="A" Length="8"></Nup>
+    <Tipo_Cliente Type="A" Length="1"></Tipo_Cliente>
+    <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+    <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+    <Tipo_Dni Type="A" Length="1"></Tipo_Dni>
+    <Nro_Dni Type="A" Length="11"></Nro_Dni>
+    <Fecha_Nac Type="A" Length="8"></Fecha_Nac>
+  </Header>
+  <Input>
+    <Sucursal Type="N" Length="4"></Sucursal>
+    <Producto Type="N" Length="2"></Producto>
+    <Subproducto Type="N" Length="4"></Subproducto>
+  </Input>
+  <Output>
+    <Código_retorno_extendido Type="N" Length="8"></Código_retorno_extendido>
+    <NumeroCuenta Type="N" Length="12"> </NumeroCuenta>
+
+    </Output>
+</Servicio>

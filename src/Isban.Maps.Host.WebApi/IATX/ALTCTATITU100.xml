@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Servicio Stx_Id="ALTCTATITU" Stx_Ver="100" Log="N" Buffering="S">
+  <Header>
+    <Canal Type="A" Length="2"></Canal>
+    <Canal_Id Type="A" Length="4"></Canal_Id>
+    <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+    <Canal_Ver Type="A" Length="3"></Canal_Ver>
+    <SubCanal_Tipo Type="A" Length="2"></SubCanal_Tipo>
+    <Subcanal Type="A" Length="4"></Subcanal>
+    <Usuario_Tipo Type="A" Length="2"></Usuario_Tipo>
+    <Usuario_Id Type="A" Length="8"></Usuario_Id>
+    <Usuario_Attr Type="A" Length="2"></Usuario_Attr>
+    <Usuario_Pwd Type="A" Length="8"></Usuario_Pwd>
+    <Idus_Conc Type="A" Length="8"></Idus_Conc>
+    <Num_Sec Type="A" Length="8"></Num_Sec>
+    <Nup Type="A" Length="8"></Nup>
+    <Tipo_Cliente Type="A" Length="1"></Tipo_Cliente>
+    <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+    <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+    <Tipo_Dni Type="A" Length="1"></Tipo_Dni>
+    <Nro_Dni Type="A" Length="11"></Nro_Dni>
+    <Fecha_Nac Type="A" Length="8"></Fecha_Nac>
+  </Header>
+  <Input>
+    <Cónyuge_Indicador_cta_mancomunado Type="A" Length="1"></Cónyuge_Indicador_cta_mancomunado>
+    <Adhiere_paquete Type="A" Length="1"></Adhiere_paquete>
+    <Tipo_intervención Type="A" Length="2"></Tipo_intervención>
+    <Sucursal Type="N" Length="3"></Sucursal>
+    <Producto Type="N" Length="2"></Producto>
+    <SubProducto Type="N" Length="4"></SubProducto>
+    <Nro_Cuenta Type="N" Length="12"></Nro_Cuenta>
+    <Firmante Type="N" Length="2"></Firmante>
+    <Código_moneda Type="A" Length="3"></Código_moneda>
+    <Sucursal_operación Type="N" Length="4"></Sucursal_operación>
+	<Canal_venta Type="A" Length="3"></Canal_venta>
+	<Tipo_uso Type="N" Length="3"></Tipo_uso>
+	<Cod_condicion Type="A" Length="2"></Cod_condicion>
+	<Forma_Operar Type="N" Length="2"></Forma_Operar>
+    <ADHIERE_RIOLINE_RIOSELF Type="A" Length="1"></ADHIERE_RIOLINE_RIOSELF>
+    <DOMICILIO_CORRESPONDENCIA Type="A" Length="1"></DOMICILIO_CORRESPONDENCIA>
+    <SEC_DOM_LABORAL Type="N" Length="3"></SEC_DOM_LABORAL>
+    <CuentaCorriente Type="N" Length="9"></CuentaCorriente>
+    <CajaAhorro Type="N" Length="9"></CajaAhorro>
+  </Input>
+  <Output>
+    <Cod_retorno Type="A" Length="3"></Cod_retorno>
+    <Nup Type="N" Length="8"></Nup>
+  </Output>
+</Servicio>

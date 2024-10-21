@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Servicio Stx_Id="CNSCTADATO" Stx_Ver="210" Log="N" Buffering="S">
+  <Header>
+    <Canal Type="A" Length="2"></Canal>
+    <Canal_Id Type="A" Length="4"></Canal_Id>
+    <SubCanal_Id Type="C" Length="4"></SubCanal_Id>
+    <Canal_Ver Type="A" Length="3"></Canal_Ver>
+    <SubCanal_Tipo Type="A" Length="2"></SubCanal_Tipo>
+    <Subcanal Type="A" Length="4"></Subcanal>
+    <Usuario_Tipo Type="A" Length="2"></Usuario_Tipo>
+    <Usuario_Id Type="A" Length="8"></Usuario_Id>
+    <Usuario_Attr Type="A" Length="2"></Usuario_Attr>
+    <Usuario_Pwd Type="A" Length="8"></Usuario_Pwd>
+    <Idus_Conc Type="A" Length="8"></Idus_Conc>
+    <Num_Sec Type="A" Length="8"></Num_Sec>
+    <Nup Type="A" Length="8"></Nup>
+    <Tipo_Cliente Type="A" Length="1"></Tipo_Cliente>
+    <Tipo_Id_Cliente Type="C" Length="1"></Tipo_Id_Cliente>
+    <Nro_Id_Cliente Type="X" Length="11"></Nro_Id_Cliente>
+    <Tipo_Dni Type="A" Length="1"></Tipo_Dni>
+    <Nro_Dni Type="A" Length="11"></Nro_Dni>
+    <Fecha_Nac Type="A" Length="8"></Fecha_Nac>
+  </Header>
+  <Input>
+    <Tipo_Cuenta Type="N" Length="2"></Tipo_Cuenta>
+    <Sucursal_Cuenta Type="N" Length="3"></Sucursal_Cuenta>
+    <Nro_Cuenta Type="N" Length="7"></Nro_Cuenta>
+  </Input>
+  <Output>
+    <Clase_Paquete Type="N" Length="2"></Clase_Paquete>
+    <Tipo_Cuenta Type="C" Length="2"></Tipo_Cuenta>
+    <Sucursal_Cuenta Type="N" Length="3"></Sucursal_Cuenta>
+    <Nro_Cuenta Type="N" Length="7"></Nro_Cuenta>
+    <Nombre_Titular_Cuenta Type="A" Length="30"></Nombre_Titular_Cuenta>
+    <Tipo_Cobertura_Cuenta Type="C" Length="1"></Tipo_Cobertura_Cuenta>
+    <Tipo_Posicionamiento_Cuenta Type="N" Length="2"></Tipo_Posicionamiento_Cuenta>
+    <Saldo_Cuenta Type="N" Length="15"></Saldo_Cuenta>
+    <Saldo_impago Type="N" Length="15"></Saldo_impago>
+    <Saldo_por_Conformar Type="N" Length="15"></Saldo_por_Conformar>
+    <Depositos_Efectivo Type="N" Length="15"></Depositos_Efectivo>
+    <Depositos_24hs_CC Type="N" Length="15"></Depositos_24hs_CC>
+    <Depositos_48hs_CC Type="N" Length="15"></Depositos_48hs_CC>
+    <Depositos_72hs_CC Type="N" Length="15"></Depositos_72hs_CC>
+    <Intereses_Ganados_CA Type="N" Length="15"></Intereses_Ganados_CA>
+    <Limite_Acuerdo_CC Type="N" Length="15"></Limite_Acuerdo_CC>
+    <Cheques_Rechazados Type="N" Length="5"></Cheques_Rechazados>
+    <Fecha_Apertura Type="N" Length="8"></Fecha_Apertura>
+    <Saldo_Cuenta_D Type="N" Length="15"></Saldo_Cuenta_D>
+    <Saldo_impago_D Type="N" Length="15"></Saldo_impago_D>
+    <Saldo_por_Conformar_D Type="N" Length="15"></Saldo_por_Conformar_D>
+    <Depositos_Efectivo_D Type="N" Length="15"></Depositos_Efectivo_D>
+    <Depositos_24hs_CC_D Type="N" Length="15"></Depositos_24hs_CC_D>
+    <Depositos_48hs_CC_D Type="N" Length="15"></Depositos_48hs_CC_D>
+    <Depositos_72hs_CC_D Type="N" Length="15"></Depositos_72hs_CC_D>
+    <Intereses_Ganados_CA_D Type="N" Length="15"></Intereses_Ganados_CA_D>
+    <Limite_Acuerdo_CC_D Type="N" Length="15"></Limite_Acuerdo_CC_D>
+    <Cheques_Rechazados_D Type="N" Length="5"></Cheques_Rechazados_D>
+    <Fecha_Apertura_D Type="N" Length="8"></Fecha_Apertura_D>
+    <Indicador_direcciona Type="A" Length="2"></Indicador_direcciona>
+    <Saldo_ACTE Type="N" Length="15"></Saldo_ACTE>
+    <Saldo_ACAH Type="N" Length="15"></Saldo_ACAH>
+    <Saldo_ACCD Type="N" Length="15"></Saldo_ACCD>
+    <Saldo_ACAD Type="N" Length="15"></Saldo_ACAD>
+    <Tope_USD_cuenta Type="N" Length="15"></Tope_USD_cuenta>
+    <Tope_ARS_cuenta Type="N" Length="15"></Tope_ARS_cuenta>
+    <Acumulado_USD_cuenta Type="N" Length="15"></Acumulado_USD_cuenta>
+    <Acumulado_ARS_cuenta Type="N" Length="15"></Acumulado_ARS_cuenta>
+    <Disponible_USD_cuenta Type="N" Length="15"></Disponible_USD_cuenta>
+    <Disponible_ARS_cuenta Type="N" Length="15"></Disponible_ARS_cuenta>
+    <Disponible_USD_menor_cuenta_conjunto Type="N" Length="15"></Disponible_USD_menor_cuenta_conjunto>
+    <Disponible_ARS_menor_cuenta_conjunto Type="N" Length="15"></Disponible_ARS_menor_cuenta_conjunto>
+    <Dispuesto_USD_cuenta Type="N" Length="15"></Dispuesto_USD_cuenta>
+    <Dispuesto_ARS_cuenta Type="N" Length="15"></Dispuesto_ARS_cuenta>
+    <Fecha_Ultima_Operacion Type="A" Length="10"></Fecha_Ultima_Operacion>
+    <Ind_Sobregiro Type="A" Length="1"></Ind_Sobregiro>
+    <Estado Type="A" Length="1"></Estado>
+    <Ceros Type="N" Length="8"></Ceros>
+  </Output>
+</Servicio>
